@@ -1,4 +1,6 @@
 # biblioteca utilizada para ler arquivos no geral
+import pip
+pip.main(["install", "openpyxl"])
 import pandas as pd
 # biblioteca utilizada para mandar os sms's
 from twilio.rest import Client
